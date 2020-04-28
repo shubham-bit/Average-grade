@@ -19,7 +19,7 @@ data_valid == False:
 while data_valid == False:
     absences = int(input("True the number of absences:"))
                 if absences <0 or absences > total_classes:
-                    print("The number of absences can't be less than zero or greater than the number of total classes.")
+                    print ("The number of absences can't be less than zero or greater than the number of total classes.")
                     continue
                 else:
                     data_valid = True
